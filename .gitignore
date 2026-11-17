@@ -2,3 +2,15 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
+local-data/
+
+# Local datasets and generated databases
+/data/
+/data_north/
+*.duckdb
+*.duckdb.wal
+
+# Generated analysis outputs and local supplemental inputs
+/results/
+/external_trends.csv
+/weather.csv
